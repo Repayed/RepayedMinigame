@@ -1,0 +1,4 @@
+name: RMinigame
+version: '${project.version}'
+main: me.repayed.rminigame.RMinigame
+api-version: 1.16

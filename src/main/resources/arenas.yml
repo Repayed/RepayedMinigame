@@ -1,0 +1,42 @@
+server-lobby:
+  world: "World"
+  x: 40.0
+  y: -104.0
+  z: -40.0
+  yaw: -180
+  pitch: -40
+arenas:
+  0:
+    name: "test"
+    minimum-players: 2
+    maximum-players: 8
+    bounds:
+      highest-bound:
+        world: "World"
+        x: 40.0
+        y: -104.0
+        z: -40.0
+        yaw: -180
+        pitch: -40
+      lowest-bound:
+        world: "World"
+        x: 80.0
+        y: -204.0
+        z: -80.0
+        yaw: -180
+        pitch: -40
+    arena-lobby:
+      world: "World"
+      x: 80.0
+      y: -204.0
+      z: -80.0
+      yaw: -180
+      pitch: -40
+    spawn-locations:
+      0:
+        world: "World"
+        x: 40.0
+        y: -104.0
+        z: -40.0
+        yaw: -180
+        pitch: -40

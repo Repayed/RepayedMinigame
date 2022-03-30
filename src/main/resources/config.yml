@@ -1,0 +1,25 @@
+permissions:
+  minigame-admin: "minigame.admin"
+settings:
+  game-length: 300 # in seconds
+messages:
+  prefix: "&c&lGame &8┃"
+  no-permission: "%prefix% &4No permission."
+  admin:
+    game-menu:
+      - ""
+      - "&c&lArena Menu"
+      - ""
+      - "&8&l* &7/arena list"
+      - "&8&l* &7/arena join [name] (name optional)"
+      - "&8&l* &7/arena setlobbyspawn"
+      - "&8&l* &7/arena setarenalobby [arena]"
+      - "&8&l* &7/arena create [arena-name] <min-players> <max-players>"
+      - "&8&l* &7/arena setspawn [arena]"
+      - "&8&l* &7/arena wand"
+      - "&8&l* &7/arena setbounds [arena]"
+      - "&8&l* &7/arena save [name]"
+      - ""
+    first-corner: "&a&lFIRST CORNER SELECTION"
+    second-corner: "&a&lSECOND CORNER SELECTION"
+
